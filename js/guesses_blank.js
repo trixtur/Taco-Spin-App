@@ -1,0 +1,141 @@
+var all_users = [{
+   "id": 1001,
+   "name": "Matthew Lau",
+   "guess": 0,
+   "image": "mattismeme.jpg"
+}, {
+   "id": 1002,
+   "name": "Andy",
+   "guess": 0,
+   "image": "andy.png"
+}, {
+   "id": 1003,
+   "name": "Captain Morgan",
+   "guess": 0,
+   "image": "cap_morgan_champ.png"
+}, {
+   "id": 1004,
+   "name": "The Great X-Man",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1005,
+   "name": "Charles",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1006,
+   "name": "Brett SmashMouth",
+   "guess": 0,
+   "image": "mars_red_panda.jpg"
+}, {
+   "id": 1007,
+   "name": "Mars (Marissa)",
+   "guess": 0,
+   "image": "mars_red_panda.jpg"
+}, {
+   "id": 1008,
+   "name": "Brian",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1009,
+   "name": "Rodney",
+   "guess": 0,
+   "image": "rodney_champ.jpg"
+}, {
+   "id": 1010,
+   "name": "Junkrat (Scott) Main",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1011,
+   "name": "Dragon of Rain",
+   "guess": 0,
+   "image": "jessica_taco_spin.png"
+}, {
+   "id": 1012,
+   "name": "H",
+   "guess": 0,
+   "image": "h_tacospin.jpg"
+}, {
+   "id": 1013,
+   "name": "Jesse",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1014,
+   "name": "Quinn",
+   "guess": 0,
+   "image": "quinn_taco.jpg"
+}, {
+   "id": 1015,
+   "name": "Caleb",
+   "guess": 0,
+   "image": "caleb_winner.jpeg"
+}, {
+   "id": 1017,
+   "name": "Hailey",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1018,
+   "name": "Lele",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1019,
+   "name": "Dalan",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1020,
+   "name": "Spencer",
+   "guess": 0,
+   "image": "spencer_winner.png"
+}, {
+   "id": 1021,
+   "name": "Eric",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1022,
+   "name": "Nick",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1023,
+   "name": "Milo",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1024,
+   "name": "Kaleb",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1025,
+   "name": "Ty",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1026,
+   "name": "Jae",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1027,
+   "name": "Ben",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1028,
+   "name": "Jordan",
+   "guess": 0,
+   "image": ""
+}, {
+   "id": 1029,
+   "name": "Alyssa",
+   "guess": 0,
+   "image": ""
+}];
