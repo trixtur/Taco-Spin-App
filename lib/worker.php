@@ -12,6 +12,7 @@ final class Worker {
 
         while($GLOBALS['running']) {
             $GLOBALS['count'] += 1; // TODO fix.
+            sleep(1);
         }
     }
 
@@ -20,6 +21,8 @@ final class Worker {
     }
 
     public static function report() {
+        echos($GLOBALS['count'], 'yellow');
+        Main::log(E_NOTICE, 'Current count is ' . $GLOBALS['count']);
         return $GLOBALS['count'];
     }
 }
