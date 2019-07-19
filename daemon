@@ -13,3 +13,22 @@ if (DAEMON_FORK && 0 !== pcntl_fork()) {
 }
 
 Main::log(E_NOTICE, DAEMON_NAME . " started at " . date(DATE_RFC822));
+
+// Need for signals
+declare(ticks = 1);
+Main::registerSignal();
+
+set_error_handler("Main::handleError");
+
+if (DAEMON_FORK) {
+    Main::registerEnv();
+
+    ini_set("display_errors", 0);
+}
+
+Main::loop();
+
+/* Delete PID file after shutdown */
+unlink(PID_FILE);
+
+Main::log(E_NOTICE, DAEMON_NAME . " shut down normally at " . date(DATE_RFC822));
