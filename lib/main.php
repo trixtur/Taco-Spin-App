@@ -17,7 +17,7 @@ final class Main {
     public static function loop() {
         do {
             echos("BEGINNING\n", "green");
-            $load = Worker::run($db);
+            $load = Worker::run();
             if (DAEMON_FORK) {
                 $sleep = MAX_SLEEP + $load * (MIN_SLEEP - MAX_SLEEP);
                 
@@ -31,7 +31,6 @@ final class Main {
             
         } while (self::$run);
         // Close extern ressources
-        mysqli_close($db);
     }
     /**
     Registering the environment
